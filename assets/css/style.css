@@ -1,0 +1,422 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+.header a {
+	text-decoration: none;
+	color: #36354a;
+}
+
+.header {
+	width: 100%;
+	height: 65px;
+	/* background-color: cadetblue; */
+	text-transform: uppercase;
+	font-weight: bold;
+
+	/* position: fixed;
+	z-index: 10; */
+}
+
+.logo-team {
+	float: left;
+	font-size: 16pt;
+	margin: 20px 0px 20px 100px;
+	font-style: italic;
+}
+
+.logo-team:hover {
+	color: #fe6685;
+}
+
+.header-list {
+	float: right;
+	font-size: 10pt;
+	margin-right: 100px;
+}
+
+.header-list li {
+	list-style: none;
+	float: left;
+	line-height: 65px;
+	margin-left: 40px;
+}
+
+.header-list a:hover {
+	color: tomato;
+}
+
+.icon-menu {
+	float: right;
+	line-height: 65px;
+	margin-right: 100px;
+	display: none;
+	font-size: 10pt;
+}
+
+/* Main */
+.main-row {
+	position: absolute;
+	width: 100%;
+	float: left;
+	height: 560px;
+	color: black;
+	display: inline;
+	padding: 20px;
+	/* display: flex;
+	justify-content: space-between; */
+	/* background-image: url("../img/img-main.png");
+	background-size: cover; */
+}
+
+.motto-team {
+	width: 50%;
+	float: left;
+	margin: auto
+}
+
+.motto-team h1 {
+	text-transform: uppercase;
+	color: #fe6685;
+	font-weight: bold;
+	font-size: 45pt;
+	text-align: left;
+}
+
+.motto-team p {
+	text-transform: inherit;
+	font-size: 15pt;
+	color: #36354a;
+	text-align: left;
+	width: 100%;
+}
+
+.image-motto {
+	width: 50%;
+	float: left;
+}
+
+.body1 {
+	width: 100%;
+	height: 560px;
+	color: black;
+	display: flex;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.image-tentang {
+	float: left;
+	width: 50%;
+}
+
+.tentang-kami {
+	background-color: lightgrey;
+	width: 50%;
+	float: left;
+	margin: auto;
+}
+
+.tentang-kami h2 {
+	text-transform: uppercase;
+	color: #fe6685;
+	font-weight: bold;
+	font-size: 45pt;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.tentang-kami p {
+	text-transform: inherit;
+	font-size: 15pt;
+	color: #36354a;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/* Body */
+.lesson-wrapper {
+	width: 100%;
+	height: 560px;
+	margin-top: 0px;
+	padding-top: 200px;
+	padding-bottom: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #6E65FD
+}
+
+.heading h2 {
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+	align-items: baseline;
+}
+
+.lessons {
+	position: relative;
+	width: 1100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+.lessons .lesson1 {
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: lightsalmon;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.lessons .lesson1:hover {
+	height: 420px;
+}
+
+.lessons .lesson2 {
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: #6495ED;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.lessons .lesson2:hover {
+	height: 420px;
+}
+
+.lessons .lesson3 {
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: #6E65FD;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.lessons .lesson3:hover {
+	height: 420px;
+}
+
+.lessons .lesson4 {
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: #1F304e;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.lessons .lesson4:hover {
+	height: 420px;
+}
+
+.lessons .lesson5 {
+	position: relative;
+	max-width: 300px;
+	height: 215px;
+	background: #FFA07A;
+	margin: 30px 10px;
+	padding: 20px 15px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+	transition: 0.3s ease-in-out;
+}
+
+.lessons .lesson5:hover {
+	height: 420px;
+}
+
+.lessons .img-box {
+	position: relative;
+	width: 260px;
+	height: 200px;
+	top: -60px;
+	left: 20px;
+	z-index: 1;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.lessons .content {
+	position: relative;
+	margin-top: -140px;
+	padding: 10px 15px;
+	text-align: center;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.lessons .lesson1:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition-delay: 0.3s;
+}
+
+.lessons .lesson2:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition-delay: 0.3s;
+}
+
+.lessons .lesson3:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition-delay: 0.3s;
+}
+
+.lessons .lesson4:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition-delay: 0.3s;
+}
+
+.lessons .lesson5:hover .content {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	transition-delay: 0.3s;
+}
+
+.lessons .img-box img {
+	width: 260px;
+	height: 260px;
+	border-radius: 4px;
+}
+
+.lessons h2 {
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+.lessons p {
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.lessons .list img {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.lessons .list {
+	display: flex;
+}
+
+.lessons .list {
+	flex: auto;
+}
+
+/* Footer */
+/* import font dari google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans@1&display=swap');
+
+/* CSS pembungkus footer */
+
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	float: left;
+	display: inline;
+	margin-top: 20px;
+	margin-bottom: -100px;
+}
+
+.footer-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* CSS Dizione di sebelah kiri */
+.footer-brand h2 {
+	text-transform: inherit;
+	font-size: 33px;
+	color: #36354a;
+	text-align: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.footer-brand p {
+	margin-top: -8px;
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+/* CSS support di sebelah kanan */
+.footer-support h2 {
+	font-size: 14px;
+	font-weight: 100;
+	text-align: center;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+/* CSS logo support di sebelah kanan */
+.footer-support ul {
+	display: flex;
+	float: right;
+	align-items: center;
+	background-color: white;
+	list-style-type: none;
+	margin-right: 100px;
+}
+
+.footer-support ul li {
+	padding: 10px;
+	float: right;
+}
+
+/* CSS copyright */
+.footer-copyright {
+	margin-top: 100px;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}

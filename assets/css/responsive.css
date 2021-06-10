@@ -1,0 +1,224 @@
+@media (max-width: 576px) {
+	.header {
+		width: 100%;
+	}
+
+	.header-list {
+		display: none;
+	}
+
+	.icon-menu {
+		display: block;
+		position: center;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.motto-team {
+		margin: 80px 10px 10px 80px;
+	}
+
+	.motto-team h1 {
+		font-size: 20pt;
+		text-align: center;
+	}
+
+	.motto-team p {
+		font-size: 10pt;
+		text-align: center;
+	}
+
+	.motto-team img {
+		float: left;
+		max-width: 35%;
+	}
+
+	.flex-container {
+		flex-wrap: wrap;
+		max-width: 35%;
+	}
+
+	.lesson-wrapper {
+		margin-bottom: -100px;
+	}
+
+	.body-row {
+		display: grid;
+		justify-content: center;
+	}
+
+	.main-row {
+		display: grid;
+		justify-content: center;
+	}
+
+	.tentang-kami {
+		margin: 80px 80px 10px 10px;
+	}
+
+	.tentang-kami h1 {
+		font-size: 20pt;
+		text-align: center;
+	}
+
+	.tentang-kami p {
+		font-size: 10pt;
+		text-align: center;
+	}
+
+	.lessons {
+		display: flex;
+		flex-direction: column;
+		width: 20%;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer-row {
+		display: grid;
+		justify-content: center;
+	}
+
+	.footer-support {
+		margin-top: 30px;
+	}
+
+	.footer-copyright {
+		padding-bottom: 5px;
+	}
+}
+
+@media only screen and (max-width: 712px) {
+
+	.header {
+		width: 100%;
+	}
+
+	.header-list {
+		display: none;
+	}
+
+	.icon-menu {
+		display: block;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.motto-team {
+		margin: 70px 0 20px 50px;
+	}
+
+	.motto-team h1 {
+		font-size: 20pt;
+	}
+
+	.motto-team p {
+		font-size: 10pt;
+	}
+
+	.image-motto {
+		max-width: 35%;
+	}
+
+	.flex-container {
+		flex-wrap: wrap;
+		max-width: 35%;
+	}
+
+	.tentang-kami h2 {
+		font-size: 25pt;
+	}
+
+	.tentang-kami p {
+		font-size: 10pt;
+	}
+
+	.lessons {
+		width: 100px;
+	}
+
+	/* .lesson1, .lesson2, .lesson3, .lesson4, .lesson5 {
+		width: min-content;
+		height: 100px;
+	} */
+
+	.lesson-wrapper {
+		height: max-content;
+	}
+
+	.image-tentang, .tentang-kami {
+		align-items: center;
+		width: 100%;
+	}
+
+	.motto-team, .image-motto {
+		align-items: center;
+		width: 100%;
+	}
+
+	/* .boxs .box1, .boxs .box2, .boxs .box3, .boxs .box4, .boxs .box5 {
+		max-width: 20%;
+	} */
+}
+
+@media (max-width: 1068px) {
+	.header {
+		width: 100%;
+	}
+
+	.header-list {
+		display: none;
+	}
+
+	.icon-menu {
+		display: block;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.motto-team {
+		margin: 100px 0 50px 80px;
+	}
+
+	.motto-team h1 {
+		font-size: 30pt;
+	}
+
+	.motto-team p {
+		font-size: 12pt;
+	}
+
+	.flex-container {
+		flex-wrap: wrap;
+		max-width: 35%;
+	}
+
+	.lessons {
+		width: 1000px;
+	}
+
+	.lesson-wrapper {
+		margin-bottom: 100px;
+		margin-top: 100px;
+		padding-top: 400px;
+		padding-bottom: 360px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.header {
+		width: 100%;
+	}
+
+	.main {
+		width: 100%;
+	}
+}
